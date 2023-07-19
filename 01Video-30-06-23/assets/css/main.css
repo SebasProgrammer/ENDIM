@@ -1,0 +1,145 @@
+*{
+    font-family: "Lexend";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+.principal{
+    padding: 0px;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.prueba{
+    outline: 3px solid green;
+}
+.navbar img{
+    height: 25px;
+}
+.navbar form{
+    padding-top: 10px;
+}
+.navbar-dropdown {
+    max-height: none;
+    overflow: visible;
+}
+.navbar-brand{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+.leng{
+    margin-left: 3%;
+}
+.rango{
+    width: 94%;
+    margin-left: 3%;
+}
+.rango2{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.setting{
+    width: 400%
+}
+.title-set{
+    margin-left: 3%;
+}
+
+.c-item{
+
+    height: 564px;
+}
+
+.c-img{
+    animation: transitionIn 3s;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+
+.us-title{
+    font-weight: bold;
+    font-size: 26px;
+}
+.row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.columna{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.p-card{
+    color: #18122B;
+    font-size: 20px;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.card{
+    border: 0;
+    padding: 30px;
+}
+.columna{
+    color: #000000;
+}
+.about{
+    background-color: #FFFFFF;
+}
+
+.card img {
+    max-width: 25%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+}
+
+.text-section{
+    text-align: center;
+}
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.card-div{
+    background-color: #FFFFFF;
+}
+
+/* .about{
+    background-image: url("../img/fo1.jpg");
+} */
+
+
+
+@media screen and (max-width: 767px){
+    .setting{
+        width: 100%
+    }
+} 
